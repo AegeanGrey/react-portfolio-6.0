@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-6.0/static/css/main.79bda6d7.css",
+    "main.js": "/react-portfolio-6.0/static/js/main.36b47965.js",
+    "static/media/pikes.JPEG": "/react-portfolio-6.0/static/media/pikes.c2fadac9fe82875b5dec.JPEG",
+    "static/media/tower.JPEG": "/react-portfolio-6.0/static/media/tower.b282212d564e7bb3adab.JPEG",
+    "static/media/pier.jpg": "/react-portfolio-6.0/static/media/pier.24431a065315bc170aea.jpg",
+    "static/media/needle.jpg": "/react-portfolio-6.0/static/media/needle.e9f4d9840a92933f9105.jpg",
+    "static/media/ocean.jpg": "/react-portfolio-6.0/static/media/ocean.f68703d721bbc3edf1b6.jpg",
+    "static/media/bowtie-cat.png": "/react-portfolio-6.0/static/media/bowtie-cat.9a8a231d89ab47fcf17d.png",
+    "static/media/ghostbusters.jpg": "/react-portfolio-6.0/static/media/ghostbusters.dd3140e7a0712e7a65f0.jpg",
+    "static/media/lead-generation.png": "/react-portfolio-6.0/static/media/lead-generation.8e3b527bf619589ede5a.png",
+    "static/media/password-generator.png": "/react-portfolio-6.0/static/media/password-generator.aa25cbf89939def02f6b.png",
+    "index.html": "/react-portfolio-6.0/index.html",
+    "main.79bda6d7.css.map": "/react-portfolio-6.0/static/css/main.79bda6d7.css.map",
+    "main.36b47965.js.map": "/react-portfolio-6.0/static/js/main.36b47965.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79bda6d7.css",
+    "static/js/main.36b47965.js"
+  ]
+}
