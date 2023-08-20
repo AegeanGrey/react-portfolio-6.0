@@ -7,7 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import { Typography } from '@mui/material';
 import Stack from '@mui/material/Stack';
-import Grid from '@mui/material/Grid';
 
 import united from '../assets/images/project-united.jpg';
 import notes from '../assets/images/note-taker.jpg';
@@ -20,11 +19,9 @@ import ghost from '../assets/images/ghostbusters.jpg';
 
 function MediaCard() {
   return(
-    <Grid margin={2} marginLeft={14} marginRight={14}>
-    <Stack spacing={4} direction={'row'}>
+    <Stack spacing={{ xs: 4, sm: 4 }} display={'flex'} direction={'row'} useFlexGap flexWrap={'wrap'} justifyContent={'center'}>
 
       {/* Ghostbusters Card */}
-      <Grid>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -44,10 +41,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/ashtreid/ghostbusters" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
       {/* Project United Card */}
-      <Grid paddingBottom={10}>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -67,10 +62,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/Childofrainydays/project-united" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
       {/* Cabinet Keepers Card */}
-      <Grid>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -90,10 +83,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/team-waffles" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
-      {/* Password Generator Card */}
-      <Grid>
+      {/* Password Generator Card */}  
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -113,13 +104,12 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/password-generator" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
-    </Stack>
+      
+    {/* </Stack> */}
 
-    <Stack spacing={3} direction={'row'}>
+    {/* <Stack spacing={3} direction={'row'}> */}
 
-      {/* Note Taker Card */}
-      <Grid>
+      {/* Note Taker Card */} 
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -131,7 +121,7 @@ function MediaCard() {
             Note Taker
           </Typography>
           <Typography gutterBottom variant='h5' color='text.secondary'>
-            An all in one place to write, save and retrieve your notes via JavaScript, JSON, and HTTP Requests
+            An all in one app to write, save and retrieve your notes via JavaScript
           </Typography>
         </CardContent>
         <CardActions>
@@ -139,10 +129,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/note-taker" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
-      {/* README Card */}
-      <Grid>
+      {/* README Card */}  
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -161,10 +149,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/readme-generator" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
       {/* Study Guide Card */}
-      <Grid>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -184,10 +170,8 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/prework-study-guide" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
 
       {/* Horiseon Card */}
-      <Grid>
       <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
         <CardMedia 
           sx={{ height: 194 }}
@@ -207,9 +191,7 @@ function MediaCard() {
           <Button size="large" href="https://github.com/AegeanGrey/horiseon-mock-up" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
-      </Grid>
     </Stack>
-  </Grid>
   )
 }
 
