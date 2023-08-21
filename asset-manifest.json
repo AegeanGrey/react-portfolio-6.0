@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-6.0/static/css/main.e59cd2c0.css",
-    "main.js": "/react-portfolio-6.0/static/js/main.efcd12b3.js",
+    "main.css": "/react-portfolio-6.0/static/css/main.939a2b4e.css",
+    "main.js": "/react-portfolio-6.0/static/js/main.23a1f1ba.js",
     "static/media/pikes.JPEG": "/react-portfolio-6.0/static/media/pikes.c2fadac9fe82875b5dec.JPEG",
     "static/media/tower.JPEG": "/react-portfolio-6.0/static/media/tower.b282212d564e7bb3adab.JPEG",
     "static/media/pier.jpg": "/react-portfolio-6.0/static/media/pier.24431a065315bc170aea.jpg",
@@ -9,14 +9,15 @@
     "static/media/ocean.jpg": "/react-portfolio-6.0/static/media/ocean.f68703d721bbc3edf1b6.jpg",
     "static/media/bowtie-cat.png": "/react-portfolio-6.0/static/media/bowtie-cat.9a8a231d89ab47fcf17d.png",
     "static/media/ghostbusters.jpg": "/react-portfolio-6.0/static/media/ghostbusters.dd3140e7a0712e7a65f0.jpg",
+    "static/media/Resume.pdf": "/react-portfolio-6.0/static/media/Resume.50d5d84b4f8b195ecb1d.pdf",
     "static/media/lead-generation.png": "/react-portfolio-6.0/static/media/lead-generation.8e3b527bf619589ede5a.png",
     "static/media/password-generator.png": "/react-portfolio-6.0/static/media/password-generator.aa25cbf89939def02f6b.png",
     "index.html": "/react-portfolio-6.0/index.html",
-    "main.e59cd2c0.css.map": "/react-portfolio-6.0/static/css/main.e59cd2c0.css.map",
-    "main.efcd12b3.js.map": "/react-portfolio-6.0/static/js/main.efcd12b3.js.map"
+    "main.939a2b4e.css.map": "/react-portfolio-6.0/static/css/main.939a2b4e.css.map",
+    "main.23a1f1ba.js.map": "/react-portfolio-6.0/static/js/main.23a1f1ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.e59cd2c0.css",
-    "static/js/main.efcd12b3.js"
+    "static/css/main.939a2b4e.css",
+    "static/js/main.23a1f1ba.js"
   ]
 }
