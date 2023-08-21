@@ -2,6 +2,7 @@ import React from 'react';
 import pier from '../assets/images/pier.jpg';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import resume from '../assets/downloads/Resume.pdf';
 
 // Page for Resume Structure/Content
 function Resume() {
@@ -20,9 +21,9 @@ function Resume() {
         <h3>Resume</h3>
       </div>
 
-      {/* <div> */}
-        {/* <p>Download my resume</p> */}
-      {/* </div> */}
+      <div className='center'>
+        <a className='Download' href={resume} download={resume}>Download my resume</a>
+      </div>
 
     <div className='FlexCard'>
       <section className='Card'>
@@ -50,8 +51,6 @@ function Resume() {
           <ul>
             <li>jQuery</li>
             <li>React.js</li>
-            <li></li>
-            <li></li>
           </ul>
         </div>
         </div>
@@ -64,7 +63,6 @@ function Resume() {
         </div>
         <div className='CardList'>
           <ul>
-            <li></li>
             <li>Jest</li>
             <li>Bootstrap</li>
             <li>Express.js</li>

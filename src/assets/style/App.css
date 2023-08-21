@@ -36,6 +36,20 @@ header div ul li {
   list-style: none;
 }
 
+.Download {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: rgba(188, 213, 231, 0.63);
+  transition: 2s;
+}
+
+a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
 .link {
   text-decoration: none;
   color: rgba(188, 213, 231, 0.63);
@@ -114,6 +128,7 @@ ul li {
 }
 
 .FlexCard {
+  padding-top: 2%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,6 +139,8 @@ ul li {
 
 .Card {
   flex: 1;
+  max-height: 185px;
+  min-height: 175px;
   max-width: 16%;
   min-width: 200px;
   margin: 10px 10px 10px 10px;

@@ -28,14 +28,15 @@ function Contact() {
         placeholder: 'John Doe',
         label: 'Name:',
         required: true,
-        err: 'Please input a valid First and Last name'
+        err: 'Please input a valid First and Last name',
+        pattern: `/^[a-z ,.'-]+$/i`
     },
     {
         id: 2,
         name: 'email',
         type: 'text', 
         placeholder: 'username@service.com',
-        label: 'Email:',
+        label: 'Email',
         required: true,
         err: 'Please input a valid Email Address'
     }
