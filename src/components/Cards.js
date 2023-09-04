@@ -16,6 +16,7 @@ import readme from '../assets/images/document-info.png';
 import cat from '../assets/images/bowtie-cat.png';
 import lead from '../assets/images/lead-generation.png';
 import ghost from '../assets/images/ghostbusters.jpg';
+import weather from '../assets/images/weather.jpg';
 
 function MediaCard() {
   return(
@@ -102,6 +103,27 @@ function MediaCard() {
         <CardActions>
           <Button size="large" href="https://aegeangrey.github.io/password-generator/" rel='noopener noreferrer' target="_blank">Application</Button>
           <Button size="large" href="https://github.com/AegeanGrey/password-generator" rel='noopener noreferrer' target="_blank">Github Repository</Button>
+        </CardActions>
+      </Card>
+
+      {/* Weather Dashboard Card */}  
+      <Card sx={{ maxWidth: 345, bgcolor: 'lightcyan' }}>
+        <CardMedia 
+          sx={{ height: 194 }}
+          image={weather}
+          title='A dark purple background with white font of text that says Weather Dashboard'
+        />
+        <CardContent>
+          <Typography gutterBottom variant='h5' component='div'>
+            Weather Dashboard
+          </Typography>
+          <Typography gutterBottom variant='h5' color='text.secondary'>
+            Needing a forecast for the day? This app makes API calls to OpenWeatherMaps
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button size="large" href="https://aegeangrey.github.io/weather-dashboard/" rel='noopener noreferrer' target="_blank">Application</Button>
+          <Button size="large" href="https://github.com/AegeanGrey/weather-dashboard" rel='noopener noreferrer' target="_blank">Github Repository</Button>
         </CardActions>
       </Card>
       
