@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-6.0/static/css/main.939a2b4e.css",
-    "main.js": "/react-portfolio-6.0/static/js/main.52c5f5d5.js",
+    "main.js": "/react-portfolio-6.0/static/js/main.61a930b6.js",
     "static/media/pikes.JPEG": "/react-portfolio-6.0/static/media/pikes.c2fadac9fe82875b5dec.JPEG",
     "static/media/tower.JPEG": "/react-portfolio-6.0/static/media/tower.b282212d564e7bb3adab.JPEG",
     "static/media/pier.jpg": "/react-portfolio-6.0/static/media/pier.24431a065315bc170aea.jpg",
@@ -14,10 +14,10 @@
     "static/media/password-generator.png": "/react-portfolio-6.0/static/media/password-generator.aa25cbf89939def02f6b.png",
     "index.html": "/react-portfolio-6.0/index.html",
     "main.939a2b4e.css.map": "/react-portfolio-6.0/static/css/main.939a2b4e.css.map",
-    "main.52c5f5d5.js.map": "/react-portfolio-6.0/static/js/main.52c5f5d5.js.map"
+    "main.61a930b6.js.map": "/react-portfolio-6.0/static/js/main.61a930b6.js.map"
   },
   "entrypoints": [
     "static/css/main.939a2b4e.css",
-    "static/js/main.52c5f5d5.js"
+    "static/js/main.61a930b6.js"
   ]
 }
